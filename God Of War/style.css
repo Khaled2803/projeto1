@@ -10,9 +10,10 @@ body{
 
 .container{
   width: 100vw;
-  height: 100vh;
+  height: 93.5vh;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-between;
   background-image: url("./images/fundo.png");
 }
 
@@ -78,13 +79,13 @@ body{
   flex-direction: column;
   gap: 18px;
   position: absolute;
-  right: 600px;
-  bottom: 280px;
+  right: 640px;
+  bottom: 310px;
 }
 
 .text h1{
   color: #FFFFFF;
-  font-size: 45px;
+  font-size: 50px;
   display: flex;  
 }
 
@@ -94,7 +95,9 @@ body{
 }
 
 .text-menu-img img{
-  width: 800px;
+  position: absolute;
+  left: 650px;
+  width: 860px;
 }
 
 .text-menu-button{
@@ -137,12 +140,12 @@ body{
 
 .text-video{
   position: absolute;
-  right: 160px;
-  top: 380px;
+  right: 180px;
+  top: 410px;
 }
 
 .text-video img{
-  width: 320px;
+  width: 340px;
 }
 
 .text-video button{
@@ -159,8 +162,8 @@ body{
 
 .text-video span{
   position: absolute;
-  right: 135px;
-  bottom: 73px;
+  right: 155px;
+  bottom: 83px;
 
 }
 
@@ -169,5 +172,10 @@ body{
   height: 25px;
 }
 
+.section-2 h1{
+  display: flex;
+  justify-content: center;
+  font-size: 39px;
+}
 
 
