@@ -66,28 +66,37 @@ body{
 }
 
 .text-menu{
-  margin-top: 20px;
+  margin-top: 40px;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .text{
   display: flex;
   flex-direction: column;
   gap: 18px;
+  position: absolute;
+  right: 600px;
+  bottom: 280px;
 }
 
 .text h1{
   color: #FFFFFF;
-  font-size: 38px;
+  font-size: 45px;
   display: flex;  
 }
 
 .text p{
   color: #FFFFFF;
+  font-size: 16px;
 }
 
+.text-menu-img img{
+  width: 800px;
 
+}
 
 
 
