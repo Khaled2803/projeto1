@@ -10,60 +10,25 @@ body{
 }
 
 .container{
-  background: #fff;
-  top: 80%;
-  left: 50%;
-  width: 170vh;
-  height: 80vh;
-  transform: translate(-50%, -50%);
-  position: absolute;
+  background: #17171A;
+  width: 100vw;
+  height: 100vh;
 }
 
-.container-tittle{
-  width: 100vh;
-  height: 3px;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  position: absolute;
+.menu {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.menu{
+.menu ul {
   display: flex;
-  top: -80px;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  position: absolute;
+  flex-direction: row;
+  list-style-type: none;
 }
 
-.img-tittle{
-  top:20%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  position: absolute;
-  width: 70vh;
-  height: auto;
-}
 
-.img-logo{
-  width:17vh;
-  height: auto;
-  float: right;
-}
 
-.img-logo-2{
-  width: 50vh;
-}
-
-.menu ul{
-  display: flex;
-  gap: 40px;
-}
-
-.menu ul li a{
-  display: flex;
-}
 
 
