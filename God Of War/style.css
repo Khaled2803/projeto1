@@ -13,12 +13,12 @@ body{
   height: 100vh;
   display: flex;
   justify-content: space-around;
+  background-image: url("./images/fundo.png");
 }
 
 .header{
   width: 100%;
   height: 100%;
-  background-image: url("./images/fundo.png");
 }
 
 .menu {
@@ -133,6 +133,40 @@ body{
   font-family: 'Cinzel';  
   font-weight: 500;
   cursor: pointer;
+}
+
+.text-video{
+  position: absolute;
+  right: 160px;
+  top: 380px;
+}
+
+.text-video img{
+  width: 320px;
+}
+
+.text-video button{
+  display: flex;
+  position:absolute;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  top: 70px;
+  left: 145px;
+}
+
+.text-video span{
+  position: absolute;
+  right: 135px;
+  bottom: 73px;
+
+}
+
+.text-video span img{
+  width: 25px;
+  height: 25px;
 }
 
 
