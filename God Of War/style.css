@@ -95,7 +95,44 @@ body{
 
 .text-menu-img img{
   width: 800px;
+}
 
+.text-menu-button{
+  display: flex;
+  gap: 15px;
+}
+
+.text-menu-button-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 135px;
+  background-color: #5092D2;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  padding: 5px;
+  font-family: 'Cinzel';  
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.text-menu-button-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 110px;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 3px;
+  text-transform: uppercase;
+  padding: 5px;
+  font-family: 'Cinzel';  
+  font-weight: 500;
+  cursor: pointer;
 }
 
 
