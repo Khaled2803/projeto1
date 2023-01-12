@@ -86,6 +86,7 @@ body{
 .text h1{
   color: #FFFFFF;
   font-size: 45px;
+  text-transform: uppercase;
 }
 
 .text p{
@@ -167,4 +168,69 @@ body{
 .section-3 h1{
   display: flex;
   justify-content: center;
+  align-items:baseline;
+  margin-bottom: 100px;
+  font-size: 30px;
+  color: #FFFFFF;
+  text-transform: uppercase;
 }
+
+.section-4{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.card{
+  height: 250px;
+  background-image: url("./images/fundo.png");
+}
+
+.freya{
+  border: 1px solid #5092D2;
+  height: 265px;
+}
+
+.card img{
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  width: 200px;
+  margin-top: -20px;
+}
+
+.card h3{
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  color: #FFFFFF;
+  padding: -30px 0px 0 0;
+}
+
+.span-1{
+  font-size: 55px;
+}
+
+.span-2{
+  font-size: 35px;
+}
+
+.button-section-4{
+  display: flex;
+  align-items: center;
+}
+
+.button-section-4 img{
+  width: 10px;
+  cursor: pointer;
+}
+
+
