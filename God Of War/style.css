@@ -9,12 +9,12 @@ body{
 }
 
 .container{
-  width: 100vw;
-  height: 93.5vh;
+  height: 91vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-image: url("./images/fundo.png");
+  margin-bottom: 120px;
 }
 
 .header{
@@ -29,13 +29,14 @@ body{
   justify-content: space-around;
   width: 100%;
   margin-top: 16px;
+  gap: 60px;
 }
 
 .menu ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  gap: 30px;
+  gap: 25px;
 }
 
 .menu ul li{
@@ -66,49 +67,38 @@ body{
   cursor: pointer;
 }
 
-.text-menu{
-  margin-top: 40px;
+.container-text{
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-end;
-  width: 100%;
+  margin-top: 80px;
 }
 
 .text{
+  position: absolute;
+  top: 140px;
+  left: 160px;
   display: flex;
   flex-direction: column;
-  gap: 18px;
-  position: absolute;
-  right: 640px;
-  bottom: 310px;
+  gap: 16px;
 }
 
 .text h1{
   color: #FFFFFF;
-  font-size: 50px;
-  display: flex;  
+  font-size: 45px;
 }
 
 .text p{
   color: #FFFFFF;
-  font-size: 16px;
-}
-
-.text-menu-img img{
-  position: absolute;
-  left: 650px;
-  width: 860px;
+  width: 460px;
 }
 
 .text-menu-button{
   display: flex;
-  gap: 15px;
+  gap: 18px;
 }
 
 .text-menu-button-1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 40px;
   width: 135px;
   background-color: #5092D2;
@@ -122,60 +112,59 @@ body{
 }
 
 .text-menu-button-2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 40px;
-  width: 110px;
+  width: 115px;
   background-color: transparent;
-  border: 1px solid #FFFFFF;
-  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
   border-radius: 3px;
+  color: #FFFFFF;
+  font-family: 'Cinzel';
   text-transform: uppercase;
-  padding: 5px;
-  font-family: 'Cinzel';  
-  font-weight: 500;
   cursor: pointer;
 }
 
-.text-video{
+.container-text-img{
   position: absolute;
-  right: 180px;
-  top: 410px;
+  width: 745px;
+  top: 90px;
+  left: 595px;
 }
 
-.text-video img{
-  width: 340px;
-}
-
-.text-video button{
+.container-text-video{
+  position: absolute;
+  bottom: 95px;
+  right: 138px;
   display: flex;
-  position:absolute;
-  width: 50px;
-  height: 50px;
-  background: transparent;
-  border: 2px solid #FFFFFF;
-  border-radius: 50%;
-  top: 70px;
-  left: 145px;
+  width: 320px;
 }
 
-.text-video span{
-  position: absolute;
-  right: 155px;
-  bottom: 83px;
-
-}
-
-.text-video span img{
-  width: 25px;
-  height: 25px;
-}
-
-.section-2 h1{
+.play-video{
   display: flex;
   justify-content: center;
-  font-size: 39px;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 165px;
+  right: 275px;
+  background-color: transparent;
+  border-radius: 100%;
+  border: 2px solid #FFFFFF;
+  cursor: pointer;
 }
 
+.play-video img{
+  width: 20px;
+}
 
+.line{
+  position: absolute;
+  top: 550px;
+  width: 98vw;
+  height: 50px;
+}
+
+.section-3 h1{
+  display: flex;
+  justify-content: center;
+}
